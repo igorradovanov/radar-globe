@@ -8,7 +8,9 @@ function App() {
     // Import local file globe_data.json
     import("../globe_data.json").then((data) => {
       const globe = Globe()(globeEl.current)
-        .globeImageUrl("//unpkg.com/three-globe/example/img/earth-dark.jpg")
+        .globeImageUrl(
+          "https://unpkg.com/three-globe/example/img/earth-night.jpg"
+        )
         .arcsData(data.default) // Use the imported data here
         .arcColor("color")
         .arcDashLength(0.4)
