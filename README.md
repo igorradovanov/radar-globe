@@ -4,6 +4,8 @@ This project fetches data from the Cloudflare Radar API, processes it, and visua
 
 ![Globe](https://github.com/igorradovanov/radar-globe/blob/main/globe-animate.gif)
 
+LIVE DEMO: https://radar-globe.vercel.app/
+
 ## Prerequisites  
 
 - Node.js installed on your machine  
