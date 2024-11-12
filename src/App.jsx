@@ -17,6 +17,12 @@ function App() {
         .arcDashGap(0.2)
         .arcDashInitialGap(() => Math.random())
         .arcDashAnimateTime(5000);
+
+      //Auto rotate
+      globe.controls().autoRotate = true;
+      globe.controls().autoRotateSpeed = 0.5;
+      // start to rotate on europe
+      globe.pointOfView({ lat: 52.5, lng: 13.4, altitude: 2.5 });
     });
 
     return () => {
